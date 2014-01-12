@@ -1,0 +1,16 @@
+
+    <div>Home</div>
+    <div class="example2" ng-controller="toDoCtrl">
+	<h2>Total {{getTotalTodos()}}</h2>
+	<ul>
+		<li ng-repeat="todo in todos" >
+			<input type="checkbox" ng-model="todo.status" >
+			<span class="todo-{{todo.status}}">{{todo.text}}</span>
+		</li>
+	</ul>
+	<form>
+     <input type ="text" ng-model="formTodoText" ng-model-instant >
+	 <button ng-click="AddTodo()"> Add </button>
+	 </form>
+    </div>
+  

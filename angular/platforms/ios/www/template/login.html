@@ -1,0 +1,19 @@
+
+    <div>Login</div>
+    <div class="example2" ng-controller="loginCtrl">
+	<h2>Total {{getTotalTodos()}}</h2>
+	<form name-"loginForm" id-"loginForm">
+     	<div> LanId 
+     		<input type ="text" ng-model="lanId" ng-model-instant required >
+     		<span ng-show="loginForm.lanId.$error.required">Please enter something!</span>
+     	</div>
+     	<div> Passowrd
+     		<input type ="password" ng-model="pw" ng-model-instant  required>
+     	</div>
+
+
+	 	<button ng-click="login()"> Login </button>
+	 </form>
+
+    </div>
+  

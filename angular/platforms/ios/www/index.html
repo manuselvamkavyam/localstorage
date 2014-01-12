@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app="phonecatApp" lang="en">
+  <head>
+  	<script  type="text/javascript" src="js/cordova.js"></script>
+  	<script  type="text/javascript" src="js/index.js"></script>
+	<link  rel="stylesheet" href="css/todo.css" />
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/angular-route.js"></script>
+   <script  type="text/javascript" src="js/todo.js"></script>
+   <script  type="text/javascript" src="js/controller.js"></script>
+   <script type="text/javascript">
+	app.initialize();
+	</script>
+  </head>
+  <body>
+  	<div ng-view></div>
+    <div class="main">
+	<h2>Routing</h2>
+	<ul>
+		<li> <a href="#/home">Home</a> </li>
+		<li> <a href="#/login">Login</a> </li>
+		<li> <a href="#/contact">moreinfo</a> </li>
+		
+	
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.todo-true{
+	text-decoration: line-through;
+	color:#CCC;
+
+}
+.todo.false{
+	text-decoration: none;
+	color: #000;
+}
